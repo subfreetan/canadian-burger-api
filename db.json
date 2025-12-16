@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@canadianburger.be",
+      "password": "admin123",
+      "name": "Admin Restaurant",
+      "phone": "0470000000",
+      "points": 0,
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Burgers", "icon": "🍔" },
+    { "id": 2, "name": "Poulet", "icon": "🍗" },
+    { "id": 3, "name": "Fish", "icon": "🐟" },
+    { "id": 4, "name": "Végétarien", "icon": "🥬" },
+    { "id": 5, "name": "Accompagnements", "icon": "🍟" },
+    { "id": 6, "name": "Boissons", "icon": "🥤" },
+    { "id": 7, "name": "Desserts", "icon": "🍦" }
+  ],
+  "products": [
+    { "id": 1, "name": "Real Canadian", "description": "Notre burger signature avec bacon croustillant, cheddar fondant, oignons caramélisés et sauce maison", "price": 8.99, "categoryId": 1, "available": true },
+    { "id": 2, "name": "Double Cheese", "description": "Double steak haché, double cheddar, cornichons, oignons et sauce spéciale", "price": 9.99, "categoryId": 1, "available": true },
+    { "id": 3, "name": "Double Bacon Cheese", "description": "Double steak, double bacon croustillant, double cheddar et sauce BBQ", "price": 10.99, "categoryId": 1, "available": true },
+    { "id": 4, "name": "Poulet Cheese", "description": "Filet de poulet pané croustillant, cheddar, salade et mayonnaise", "price": 8.49, "categoryId": 2, "available": true },
+    { "id": 5, "name": "Pepper Burger", "description": "Steak haché, sauce au poivre, oignons frits et fromage", "price": 9.49, "categoryId": 1, "available": true },
+    { "id": 6, "name": "Fish Burger", "description": "Filet de poisson pané, sauce tartare, salade iceberg", "price": 8.99, "categoryId": 3, "available": true },
+    { "id": 7, "name": "Vegan Moutarde", "description": "Steak végétal, sauce moutarde et miel, légumes frais", "price": 9.49, "categoryId": 4, "available": true },
+    { "id": 8, "name": "Miel Moutarde", "description": "Filet de poulet grillé, sauce miel moutarde, tomates et salade", "price": 8.99, "categoryId": 2, "available": true },
+    { "id": 9, "name": "BBQ Burger", "description": "Steak haché, sauce BBQ fumée, oignons frits, cheddar", "price": 9.49, "categoryId": 1, "available": true },
+    { "id": 10, "name": "Curry Madras Cheese", "description": "Poulet mariné au curry, fromage fondu, oignons et sauce épicée", "price": 9.99, "categoryId": 2, "available": true },
+    { "id": 11, "name": "Frites Maison", "description": "Portion généreuse de frites fraîches", "price": 3.50, "categoryId": 5, "available": true },
+    { "id": 12, "name": "Onion Rings", "description": "Rondelles d'oignons panées et croustillantes", "price": 4.50, "categoryId": 5, "available": true },
+    { "id": 13, "name": "Coca-Cola", "description": "33cl", "price": 2.50, "categoryId": 6, "available": true },
+    { "id": 14, "name": "Sprite", "description": "33cl", "price": 2.50, "categoryId": 6, "available": true },
+    { "id": 15, "name": "Eau Minérale", "description": "50cl", "price": 2.00, "categoryId": 6, "available": true },
+    { "id": 16, "name": "Milkshake Vanille", "description": "Milkshake onctueux à la vanille", "price": 4.50, "categoryId": 6, "available": true },
+    { "id": 17, "name": "Brownie", "description": "Brownie au chocolat fondant", "price": 3.50, "categoryId": 7, "available": true },
+    { "id": 18, "name": "Sundae Caramel", "description": "Glace vanille, sauce caramel, chantilly", "price": 4.00, "categoryId": 7, "available": true }
+  ],
+  "rewards": [
+    { "id": 1, "name": "Boisson Offerte", "description": "Une boisson au choix", "pointsCost": 70, "type": "drink" },
+    { "id": 2, "name": "Frites Offertes", "description": "Une portion de frites maison", "pointsCost": 50, "type": "side" },
+    { "id": 3, "name": "Dessert Offert", "description": "Un dessert au choix", "pointsCost": 100, "type": "dessert" },
+    { "id": 4, "name": "Burger Offert", "description": "Un burger au choix", "pointsCost": 200, "type": "burger" },
+    { "id": 5, "name": "Menu Complet", "description": "Burger + Frites + Boisson", "pointsCost": 350, "type": "menu" }
+  ],
+  "orders": [],
+  "redeemedRewards": []
+}
